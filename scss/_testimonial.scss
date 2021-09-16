@@ -1,0 +1,145 @@
+.testimonial {
+  display: none;
+  margin-bottom: 96px;
+
+  &__row {
+    display: flex;
+  }
+
+  &__test {
+    margin-bottom: 15px;
+  }
+
+  &__image {
+    margin-top: 16px;
+    margin-right: 137.21px;
+    margin-left: 51px;
+    flex: 0 0 416px;
+    // max-width: 415.79px;
+    max-height: 418.62px;
+    background: #f78cb6;
+    border-radius: 8px;
+    padding: 34.45px 53.9px 34.26px 53.25px;
+  }
+
+  &__body {
+    flex: 1 1 auto;
+    max-width: 516px;
+    margin-right: 80px;
+  }
+
+  &__title {
+    line-height: 62px;
+    color: #56597a;
+    margin-bottom: 38px;
+  }
+
+  &__text {
+    max-width: 400px;
+    font-family: ProximaNova;
+    font-size: 20px;
+    line-height: 32px;
+    color: #919299;
+    margin-bottom: 23px;
+  }
+
+  &__name {
+    font-family: ProximaNova;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+    color: #56597a;
+    margin-bottom: 5px;
+  }
+
+  &__last-row {
+    font-family: ProximaNova;
+    font-size: 16px;
+    line-height: 32px;
+    color: #ababab;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .icon-arrow-left {
+    font-size: 18px;
+    content: "\e900";
+    position: absolute;
+    top: 0;
+    right: 35px;
+  }
+  .icon-arrow-left:hover {
+    transform: scale(1.31);
+    color: #f78cb6;
+  }
+  .icon-arrow-right {
+    font-size: 18px;
+    content: "\e900";
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .icon-arrow-right:hover {
+    transform: scale(1.31);
+    color: #f78cb6;
+  }
+}
+
+@media (max-width: 1150px) {
+  .testimonial {
+    &__image {
+      margin-right: 100px;
+    }
+  }
+}
+@media (max-width: 1023px) {
+  .testimonial {
+    &__title {
+      font-size: 48px;
+      line-height: 150%;
+    }
+    &__row {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__body {
+      padding: 0 10px;
+    }
+    &__text {
+      text-align: justify;
+      margin: 0 10px 42px;
+    }
+
+    &__btn {
+      // margin: 0px auto;
+      margin-bottom: 20px;
+    }
+
+    &__image {
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .testimonial {
+    &__title {
+      font-size: 32px;
+      line-height: 150%;
+      text-align: center;
+    }
+    &__image {
+      flex: 0 1 300px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    &__btn {
+      margin: 0px auto;
+    }
+  }
+}

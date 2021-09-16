@@ -1,0 +1,139 @@
+.footer {
+  // display: none;
+  margin-bottom: 65px;
+  &__row {
+    display: flex;
+    margin: 0 -83.5px;
+  }
+
+  &__column {
+    padding: 0 83.5px;
+  }
+
+  &__item {
+  }
+
+  &__logo {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    margin-bottom: 38px;
+    a {
+      color: #56597a;
+      span {
+        color: #f087b1;
+      }
+    }
+  }
+
+  &__adress {
+    font-family: ProximaNova;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #919299;
+    max-width: 288px;
+    margin-right: 210px - 167px;
+    margin-bottom: 38px;
+  }
+
+  &__follow {
+    font-family: ProximaNova;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    color: #919299;
+  }
+
+  &__block-title {
+    font-family: Circular;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #56597a;
+    margin-bottom: 37px;
+  }
+
+  &__list {
+    font-family: ProximaNova;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    a {
+      color: #919299;
+      transition: all 0.3s ease 0s;
+    }
+    a:hover {
+      color: #56597a;
+      transition: all 0.3s ease 0s;
+    }
+    li {
+      margin-bottom: 25px;
+    }
+    li:last-child {
+      margin-bottom: 0px;
+    }
+  }
+
+  &__copyright {
+  }
+}
+.social {
+  &__row {
+    display: flex;
+  }
+  &__column {
+    margin-right: 11px;
+  }
+  &__item {
+  }
+  a {
+    color: #a7a7a7;
+
+    box-shadow: (5px 5px 10px rgba(208, 192, 192, 0.25));
+  }
+}
+.scl {
+  display: block;
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  box-shadow: (5px 5px 10px rgba(208, 192, 192, 0.25));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease 0s;
+}
+.scl:hover {
+  transition: all 0.3s ease 0s;
+  color: #f78cb6;
+}
+.icon-instagram {
+  font-size: 22px;
+}
+.icon-twitter {
+  font-size: 25px;
+}
+.icon-video {
+  font-size: 24px;
+}
+.icon-facebook {
+  font-size: 21px;
+}
+
+@media (max-width: 1023px) {
+  .footer {
+    &__row {
+      flex-wrap: wrap;
+      margin: 0px auto;
+    }
+    &__column {
+      margin-bottom: 30px;
+    }
+  }
+}

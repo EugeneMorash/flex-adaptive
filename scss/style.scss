@@ -1,0 +1,64 @@
+@import "_nullstyles";
+@import "_fonts";
+@import "_icons"; //<li class="icon-call-right"> Contact us</li>  пример (см. _icons.scss)
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+
+@import "_header";
+@import "_start";
+@import "_services";
+@import "_things";
+@import "_team";
+@import "_testimonial";
+@import "_brands";
+@import "_subscribe";
+@import "_footer.scss";
+@import "_copyright.scss";
+
+.wrapper {
+  padding-top: 55px;
+
+  // min-height: 100%;
+  // overflow: hidden;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-name {
+  font-family: Circular;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: #f78cb6;
+}
+
+.btn {
+  font-family: Circular;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  background: #f78bb6;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-family: Circular;
+  font-weight: bold;
+  font-size: 52px;
+  color: #56597a;
+  @media (max-width: 650px) {
+    font-size: 30px;
+    padding: 0 10px;
+  }
+}
+
+.main {
+  margin-top: 110px;
+}

@@ -1,0 +1,28 @@
+.copyright {
+  display: none;
+  background: #f78cb6;
+
+  font-family: Circular;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+
+  &__row {
+    position: relative;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .icon-copyright {
+    line-height: 30px;
+    margin-left: 21px;
+  }
+  .icon-Web::before {
+    font-size: 28px;
+  }
+
+  &__language {
+    line-height: 24px;
+    margin-right: 70px;
+  }
+}
