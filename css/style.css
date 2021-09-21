@@ -344,7 +344,6 @@ h6 {
 }
 
 .start {
-  display: none;
   margin-bottom: 103px;
 }
 
@@ -453,10 +452,6 @@ h6 {
   .start__btn {
     margin: 0px auto;
   }
-}
-
-.services {
-  display: none;
 }
 
 .services__our-services {
@@ -599,7 +594,6 @@ h6 {
 }
 
 .things {
-  display: none;
   margin-top: 117px;
   margin-bottom: 53px;
 }
@@ -704,7 +698,6 @@ h6 {
 }
 
 .team {
-  display: none;
   margin-bottom: 133px;
 }
 
@@ -826,7 +819,6 @@ h6 {
 }
 
 .testimonial {
-  display: none;
   margin-bottom: 96px;
 }
 
@@ -986,7 +978,6 @@ h6 {
 }
 
 .brands {
-  display: none;
   margin-bottom: 133px;
 }
 
@@ -1303,7 +1294,6 @@ h6 {
 }
 
 .copyright {
-  display: none;
   background: #f78cb6;
   font-family: Circular;
   letter-spacing: 0.02em;
