@@ -76,12 +76,13 @@
 
     &__btn {
       // margin: 0px auto;
-      margin-bottom: 20px;
+      margin-bottom: 50px;
     }
 
     &__image {
       margin: 0 auto;
     }
+    margin-bottom: 50px;
   }
   @media (max-width: 600px) {
     .start {
@@ -95,6 +96,7 @@
       }
       &__btn {
         margin: 0px auto;
+        margin-bottom: 50px;
       }
     }
   }

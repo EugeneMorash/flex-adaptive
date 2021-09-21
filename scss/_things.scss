@@ -51,12 +51,15 @@
 
 @media (max-width: 1023px) {
   .things {
+    .design {
+      text-align: center;
+    }
     &__title {
       font-size: 48px;
       line-height: 150%;
     }
     &__row {
-      flex-wrap: wrap;
+      flex-wrap: wrap-reverse;
       justify-content: center;
     }
     &__body {
@@ -70,17 +73,17 @@
 
     &__btn {
       // margin: 0px auto;
-      margin-bottom: 20px;
+      margin-bottom: 50px;
     }
 
     &__image {
       margin: 0 auto;
-
-      margin-bottom: 30px;
+      // margin-bottom: 30px;
     }
   }
   @media (max-width: 600px) {
     .things {
+      margin-top: 50px;
       &__title {
         font-size: 32px;
         line-height: 150%;
@@ -91,6 +94,7 @@
       }
       &__btn {
         margin: 0px auto;
+        margin-bottom: 50px;
       }
     }
   }

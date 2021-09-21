@@ -412,6 +412,9 @@ h6 {
 }
 
 @media (max-width: 1023px) {
+  .start {
+    margin-bottom: 50px;
+  }
   .start__heading {
     font-size: 48px;
     line-height: 150%;
@@ -431,7 +434,7 @@ h6 {
     margin: 0 10px 42px;
   }
   .start__btn {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
   .start__image {
     margin: 0 auto;
@@ -451,6 +454,7 @@ h6 {
   }
   .start__btn {
     margin: 0px auto;
+    margin-bottom: 50px;
   }
 }
 
@@ -653,13 +657,16 @@ h6 {
 }
 
 @media (max-width: 1023px) {
+  .things .design {
+    text-align: center;
+  }
   .things__title {
     font-size: 48px;
     line-height: 150%;
   }
   .things__row {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -673,15 +680,17 @@ h6 {
     margin: 0 10px 42px;
   }
   .things__btn {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
   .things__image {
     margin: 0 auto;
-    margin-bottom: 30px;
   }
 }
 
 @media (max-width: 1023px) and (max-width: 600px) {
+  .things {
+    margin-top: 50px;
+  }
   .things__title {
     font-size: 32px;
     line-height: 150%;
@@ -694,6 +703,7 @@ h6 {
   }
   .things__btn {
     margin: 0px auto;
+    margin-bottom: 50px;
   }
 }
 
@@ -777,6 +787,9 @@ h6 {
   .team__title {
     font-size: 48px;
     line-height: 150%;
+  }
+  .team__our {
+    text-align: center;
   }
   .team__row {
     -ms-flex-wrap: wrap;
@@ -931,6 +944,9 @@ h6 {
   .testimonial__title {
     font-size: 48px;
     line-height: 150%;
+  }
+  .testimonial__test {
+    text-align: center;
   }
   .testimonial__row {
     -ms-flex-wrap: wrap;
