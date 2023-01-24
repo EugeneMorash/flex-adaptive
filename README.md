@@ -1,3 +1,3 @@
 # Flex + Adaptive
 
-Вы можете посмотреть сайт [здесь](https://eugenemorash.github.io/flex-adaptive/)
+You can view the website [here](https://eugenemorash.github.io/flex-adaptive/)
